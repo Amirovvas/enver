@@ -83,6 +83,22 @@
 }
 /* --------------------------------------------------- */
 @media (max-width: 768px) {
+  #service {
+    .service {
+      align-items: center;
+      text-align: center;
+
+      .bloks {
+        width: 100%;
+        justify-content: center; /* добавь это */
+      }
+
+      .blok-1 {
+        margin: 0 auto; /* чтобы блоки встали по центру */
+      }
+    }
+  }
+
   #header {
     .header {
       nav,
@@ -91,7 +107,6 @@
       }
       .menu {
         display: block;
-       
       }
     }
   }
@@ -155,6 +170,14 @@
   }
 
   @media (max-width: 640px) {
+    #service {
+      .service {
+        bloks {
+          align-items: center;
+          text-align: center;
+        }
+      }
+    }
   }
   @media (max-width: 475px) {
   }
