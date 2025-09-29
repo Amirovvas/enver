@@ -155,9 +155,11 @@
   .contact {
     flex-direction: column;
     align-items: start;
+    margin-right: 60px;
     gap: 20px;
     button {
       padding: 2px 50px;
+      margin-left: 25px;
     }
   }
   #footer {
@@ -170,14 +172,7 @@
   }
 
   @media (max-width: 640px) {
-    #service {
-      .service {
-        bloks {
-          align-items: center;
-          text-align: center;
-        }
-      }
-    }
+    
   }
   @media (max-width: 475px) {
   }
