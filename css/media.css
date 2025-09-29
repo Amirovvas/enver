@@ -1,0 +1,161 @@
+@media (max-width: 1200px) {
+  #hero {
+    .hero {
+      .hero-imgs {
+        max-width: 450px;
+        width: 100%;
+      }
+      .hero-text {
+        h1 {
+          font-size: clamp(1.875rem, 1.566rem + 1.41vw, 2.625rem);
+        }
+      }
+    }
+  }
+  #portfolio {
+    .portfolio {
+      .portfolio-imgs {
+        .img1,
+        .img2,
+        .img3,
+        .img4 {
+          width: 100%;
+          max-width: 260px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  #hero {
+    .hero {
+      .hero-imgs {
+        .main1,
+        .main2,
+        .main3,
+        .main4 {
+          width: 100%;
+          max-width: 50px;
+        }
+      }
+    }
+  }
+
+  #portfolio {
+    .portfolio {
+      .portfolio-imgs {
+        .img1,
+        .img2,
+        .img3,
+        .img4 {
+          width: 100%;
+          max-width: 200px;
+        }
+      }
+    }
+  }
+
+  #footer {
+    .footer {
+      img {
+        width: 100%;
+        max-width: 100px;
+        height: 100%;
+        max-height: 100px;
+      }
+      a,
+      p {
+        font-size: clamp(0.688rem, 0.636rem + 0.24vw, 0.813rem);
+      }
+    }
+  }
+
+  #portfolio {
+    .portfolio {
+      .contact {
+        h2 {
+          font-size: clamp(1.688rem, 1.353rem + 1.53vw, 2.5rem);
+        }
+      }
+    }
+  }
+}
+/* --------------------------------------------------- */
+@media (max-width: 768px) {
+  #header {
+    .header {
+      nav,
+      input {
+        display: none;
+      }
+      .menu {
+        display: block;
+       
+      }
+    }
+  }
+
+  #hero {
+    .hero {
+      flex-direction: column;
+      gap: 20px;
+      .hero-imgs {
+        .main1,
+        .main2,
+        .main3,
+        .main4 {
+          width: 100%;
+          max-width: 50px;
+        }
+      }
+      .main1,
+      .main3 {
+        left: -2px;
+      }
+      .hero-text {
+        button {
+          padding: 2px 20px;
+        }
+      }
+    }
+  }
+
+  #portfolio {
+    .portfolio {
+      .portfolio-our {
+        .portfolio-imgs {
+          .img1 {
+            width: 100%;
+            max-width: 1000px;
+          }
+          .img2,
+          .img3 {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  .contact {
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    button {
+      padding: 2px 50px;
+    }
+  }
+  #footer {
+    .footer,
+    nav {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+
+  @media (max-width: 640px) {
+  }
+  @media (max-width: 475px) {
+  }
+}
